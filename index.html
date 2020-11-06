@@ -1,0 +1,35 @@
+<!doctype html>
+  <html lang="en">
+   <head>
+    <title>Google Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+      </head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav_bar">
+                <li class="nav-links"><a href="img.html">Image Search</a></li>
+                <li class="nav-links"><a href="#">Advanced Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- GOOGLE IMG -->
+    <div class="google">
+        <img id="google_logo" src="google.png" alt="Google" />
+    </div>
+
+    <!-- FORM SEARCH -->
+    <div class="form">
+        <form action="https://google.com/search">
+            <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Google'" autocomplete="off" type="text" id="form-search" placeholder="Search Google" name="q">
+    </div>
+    <div class="buttons">
+        <input type="submit" value="Google Search" class="btn">
+        <input type="submit" name="btnI" value="I'm Feeling Lucky" class="btn">
+    </div>
+    </form>
+</body>
+</html>
