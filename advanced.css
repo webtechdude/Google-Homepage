@@ -139,12 +139,12 @@ input.advanced-submit:hover {
   width: 49%;
   padding: 2px 0;
 }
-.advanced-search-container .form-group .clarification {
+.advanced-search-container .form-group .instruction {
   font-size: 11px;
   width: 30%;
   margin-left: 1%;
 }
-.advanced-search-container .form-group .clarification .monospace {
+.advanced-search-container .form-group .instruction .monospace {
   font-family: monospace;
 }
 .advanced-search-container .form-group .right-align {
