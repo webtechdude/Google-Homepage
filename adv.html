@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Set viewport with -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="advanced.css" />
     <title>Advanced Search</title>
 </head>
 <body>
-    <!-- HEADER START -->
+    <!-- Headings -->
     <div class="header-advanced">
         <div class="header-advanced-logo">
-            <a href="index.html">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
-            </a>
+                <img src="google.png" alt="Google logo" />
         </div>
-        <div class="header-links">
-            <a href="index.html">Google Search</a>
-            <a href="images.html">Google Images</a>
-        </div>
+        <nav class="header-links">
+            <a href="index.html">Back to Google Search</a>
+        </nav>
     </div>
-    <!-- HEADER END -->
-    <!-- APPBAR START -->
-    <div class="appbar">
+    <!-- main content -->
+    <div class="heading2">
         <label>Advanced Search</label>
     </div>
     <div class="separator-line"></div>
-    <!-- APPBAR END -->
-    <!-- SEARCH CONTAINER START -->
+    <!--CONTAINER -->
     <div class="advanced-search-container">
         <form action="https://www.google.com/search" method="get">
             <label>Find pages with...</label>
             <div class="whitespace"></div>
-            <label>To do this in the search box.</label>
+            <label>To do this in the search box</label>
             <div class="form-group">
                 <label>All these words:</label>
                 <input type="text" name="as_q">
@@ -64,11 +57,10 @@
             <div class="form-group">
                 <label></label>
                 <div class="right-align">
-                    <input type="submit" class="blue-button" value="Google Advanced Search">
+                    <input type="submit" class="advanced-submit" value="Advanced Search">
                 </div>
             </div>
         </form>
     </div>
-    <!-- SEARCH CONTAINER END -->
 </body>
 </html>

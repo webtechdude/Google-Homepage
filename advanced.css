@@ -8,41 +8,40 @@ input {
   font-size: 16px;
   width: 300px;
   padding: 13px 0;
-  /* Parent selector = & */
 }
 input:focus {
-  outline: none;
+  outline: 1px solid #7D7DFF;
 }
 input[type=text] {
-  /* Give input text a lighter color */
   color: #464646;
   margin: 0 0 0 5px;
 }
 input[type=submit] {
   font-size: 14px;
   width: 185px;
-  /* Remove border */
   border-width: 0px;
   border-radius: 15px;
   margin: 20px;
 }
 input[type=submit]:hover {
-  /* Add box-shadow when hovering button (border adds space) */
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+  outline: 1px solid rgba(0, 64, 255, 0.3);
 }
-input.blue-button {
+input.advanced-submit {
   background-color: dodgerblue;
+  background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
   color: white;
-  font-size: smaller;
-  max-width: 200px;
+  font-size: 12px;
+  max-width: 120px;
   border-radius: 0px;
-  border: 1px solid #156bbd;
   float: right;
-  padding: 10px 2px;
+  padding: 8px 2px;
   margin: 0;
 }
+input.advanced-submit:hover {
+  border-color: internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
 
-.header, .header-links, .header-advanced-logo, .header-advanced {
+.header-links, .header-advanced-logo, .header-advanced {
   display: flex;
   align-items: center;
 }
@@ -50,6 +49,14 @@ input.blue-button {
   color: black;
   padding: 10px;
   text-decoration: none;
+}
+.header-links>a {
+  color: #5A5A5A;
+  transition: color 0.3s ease-in-out;
+}
+.header-links a:hover {
+  text-decoration: underline;
+  color: black;
 }
 .header-advanced {
   background-color: #f1f1f1;
@@ -60,15 +67,16 @@ input.blue-button {
 }
 .header-advanced-logo img {
   height: 30px;
+  margin: 20px 0px;
 }
 .header-links {
   margin-left: auto;
 }
 
-.appbar {
+.heading2 {
   margin: 30px 10px;
 }
-.appbar label {
+.heading2 label {
   color: #d93025;
   font-size: 20px;
   margin: 50px 30px;
@@ -81,7 +89,6 @@ input.blue-button {
 .search-container {
   display: flex;
   flex-direction: column;
-  /* Align the search container in the center of the viewport */
   justify-content: center;
   align-items: center;
   height: 90%;
@@ -111,12 +118,12 @@ input.blue-button {
 }
 .advanced-search-container label {
   display: inline-block;
-  width: 16%;
+  width: 20%;
   font-size: 20px;
 }
 .advanced-search-container .whitespace {
   display: inline-block;
-  width: 50%;
+  width: 46%;
 }
 .advanced-search-container .form-group {
   display: flex;
