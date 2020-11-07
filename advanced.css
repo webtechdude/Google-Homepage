@@ -5,3 +5,50 @@
 body {
     background: #ffffff;
 }
+
+.google_logo {
+	background: #F1F1F1;
+	height: 55px;
+	padding-bottom: 10px;
+}
+.google_logo img {
+	margin-left: 20px;
+}
+#adv_heading {
+	color:red; 
+	margin-left: 45px; 
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	padding: 30px 0px;
+}
+.container{
+	height: 310px;
+	margin-left: 45px;
+	margin-top: 45px;
+}
+.container>p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 75;
+  margin-bottom: 18px;
+}
+.main {
+	margin-bottom: 10px;
+}
+table {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	clear: both;
+}
+input[type="submit"] {
+	background-color: #4d90fe;
+	border: 1px solid: #3079ed;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+	float: right;
+    margin-right: 610px;
+    padding: 5px;
+    color: white;
+    font-weight: 300px;
+    margin-top: 10px;
+    font-size: 15px;
+}

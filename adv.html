@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="advanced.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Google Advanced Search</title>
 </head>
 <body>
+  <!--Heading-->
+  <div class="google_logo">
     <p style="text-align:right; margin-right:30px;">
         <a href="index.html">Back To Google Search</a>
         </p>
-        <img src="google logo.jpg" width="100px">
-        <p style="color:red; margin-left:30px; font-size:20px;">
+        <img src="google.png" width="100px">
+      </div>
+        <p id="adv_heading">
           Advanced Search
-        </p><hr><br>
-        <p>
+        </p>
+        <hr>
+        <!--Main Content-->
+        <div class="container">
+        <p class="main">
           Find pages with...
         </p>
         <form action="https://www.google.com/search">
@@ -27,7 +34,7 @@
                 <input type="text" name="q" size=75 height="100px">
               </td>
             </tr>
-            <tr>
+            <tr">
               <td>
                 this exact word or phrase:
               </td>
@@ -55,6 +62,6 @@
           <br>
           <input type="submit" value="Advanced Search">
             </form>
-        
+        </div>
 </body>
 </html>
