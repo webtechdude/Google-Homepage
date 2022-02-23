@@ -98,9 +98,8 @@ li.nav-links>a:hover {
 .btn:hover {
   box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.53);
   background: #f4f4f4;
-  border: 1px solid rgb(128, 128, 128);
+  border: 1px solid rgb(107, 107, 107);
   color: rgba(0, 0, 0, 0.7);
-  color: black;
 }
 
 .btn:focus,
